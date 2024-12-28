@@ -1,0 +1,127 @@
+{
+    "title": "CP1",
+    "level": "JSA",
+    "class": "49",
+    "quiz": [
+        {
+            "question": "Có thể truyền dữ liệu từ trang này sang trang khác của 1 website được không?",
+            "a": "Có. Ta có thể truyền trực tiếp dữ liệu sang với localStorage.",
+            "b": "Không. Dữ liệu chỉ tồn tại trong trang hiện tại.",
+            "c": "Có. Ta có thể truyền trực tiếp dữ liệu sang với sessionStorage.",
+            "d": "Không. Nhưng ta có thể truyền dữ liệu gián tiếp qua localStorage.",
+            "correct": "d"
+        },
+        {
+            "question": "localStorage được sử dụng để:",
+            "a": "Lưu trữ dữ liệu tạm thời cho website (Offline).",
+            "b": "Lưu trữ dữ liệu vĩnh viễn cho website (Online).",
+            "c": "Lưu trữ dữ liệu trên máy chủ (server).",
+            "d": "Lưu trữ cookie.",
+            "correct": "a"
+        },
+        {
+            "question": "Câu lệnh nào dùng để lưu trữ một giá trị trong localStorage?",
+            "a": "localStorage.setItem(key, value)",
+            "b": "localStorage.save(key, value)",
+            "c": "localStorage.write(key, value)",
+            "d": "localStorage.add(key, value)",
+            "correct": "a"
+        },
+        {
+            "question": "Câu lệnh nào dùng để lấy dữ liệu từ localStorage?",
+            "a": "localStorage.get(key)",
+            "b": "localStorage.getItem(key)",
+            "c": "localStorage.fetchItem(key)",
+            "d": "localStorage.retrieve(key)",
+            "correct": "b"
+        },
+        {
+            "question": "Data trong localStorage có được chia sẻ giữa các trang của một website không?",
+            "a": "Có. Data được chia sẻ giữa các trang.",
+            "b": "Không. Trang nào cũng có một localStorage riêng.",
+            "c": "Có, nhưng localStorage sẽ cần được cấu hình để chia sẻ.",
+            "d": "Không. Data chỉ tồn tại trong trang hiện tại.",
+            "correct": "a"
+        },
+        {
+            "question": "Lệnh nào dùng để xóa một key trong localStorage?",
+            "a": "localStorage.remove(key)",
+            "b": "localStorage.removeItem(key)",
+            "c": "localStorage.deleteItem(key)",
+            "d": "localStorage.clearItem(key)",
+            "correct": "b"
+        },
+        {
+            "question": "Câu nào đúng về localStorage?",
+            "a": "Có giới hạn lưu trữ là 5MB cho mỗi domain.",
+            "b": "Có giới hạn lưu trữ là 10MB cho mỗi domain.",
+            "c": "Không giới hạn dung lượng lưu trữ.",
+            "d": "Chia sẻ dữ liệu giữa các domain.",
+            "correct": "a"
+        },
+        {
+            "question": "Hàm document.createElement() dùng để:",
+            "a": "Tạo một thẻ HTML mới.",
+            "b": "Chèn thẻ vào DOM.",
+            "c": "Xóa thẻ HTML khỏi DOM.",
+            "d": "Thay thế thẻ HTML hiện tại.",
+            "correct": "a"
+        },
+        {
+            "question": "Câu lệnh nào tạo một thẻ <div> mới?",
+            "a": "document.addElement('div')",
+            "b": "document.createElement('div')",
+            "c": "document.makeElement('div')",
+            "d": "document.newElement('div')",
+            "correct": "b"
+        },
+        {
+            "question": "Phương thức nào dùng để thêm một phần tử vào web?",
+            "a": "appendChild(element)",
+            "b": "append(element)",
+            "c": "appendChildren(element)",
+            "d": "insertElement(element)",
+            "correct": "a"
+        },
+        {
+            "question": "Để thêm văn bản vào một thẻ như <div> hay <p>, phương thức nào phù hợp?",
+            "a": "setText()",
+            "b": "innerHTML",
+            "c": "innerText",
+            "d": "Cả b và c",
+            "correct": "d"
+        },
+        {
+            "question": "Một object trong JavaScript được cấu tạo như thế nào?",
+            "a": "{ key: value }",
+            "b": "[ key: value ]",
+            "c": "( key: value )",
+            "d": "key: value",
+            "correct": "a"
+        },
+        {
+            "question": "Biến dạng object có gì khác khi so sánh với biến thường?",
+            "a": "Có thể chứa nhiều giá trị.",
+            "b": "Có thể gán giá trị được.",
+            "c": "Nhẹ hơn.",
+            "d": "Không có gì khác.",
+            "correct": "a"
+        },
+        {
+            "question": "Trong đoạn mã sau, giá trị của arr[1] là gì? Với arr = [10, 20, 30];",
+            "a": "10",
+            "b": "20",
+            "c": "30",
+            "d": "undefined",
+            "correct": "b"
+        },
+        {
+            "question": "Nếu có obj = { a: 3, b: 2, c:7 }; Thì obj['a'] trả về giá trị nào?",
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "7",
+            "correct": "c"
+        }
+    ]
+}
